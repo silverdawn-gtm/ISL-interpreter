@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: isl-sign-recognition-api
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    plan: free
-    region: india  # or choose your preferred region

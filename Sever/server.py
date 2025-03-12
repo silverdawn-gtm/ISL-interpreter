@@ -13,7 +13,7 @@ app = FastAPI()
 
 # Model Download & Load
 MODEL_PATH = "model.h5"
-DRIVE_FILE_ID = "1abcDXYZ123456789"  # Replace with your Google Drive file ID
+DRIVE_FILE_ID = "1v3Uk8Na6G5IIBgHt7cEGKXkn3OFHhAI9"  # Replace with your Google Drive file ID
 
 def download_model():
     if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) == 0:
